@@ -1,29 +1,26 @@
 {
   "username": "mehedialhasan-21",
   "display_name": "Mehedi Al Hasan",
-  "title": "Senior Software Engineer & DevOps Enthusiast",
-  "bio": "Passionate about building scalable cloud-native architectures, automating workflows, and contributing to open-source.",
+  "title": "Senior Cloud Native & DevOps Engineer",
+  "bio": "Architecting resilient cloud systems, automating multi-cloud CI/CD pipelines, and mastering Kubernetes ecosystem.",
   "location": "Bangladesh",
+  "timezone": "Asia/Dhaka",
   "socials": {
     "linkedin": "https://linkedin.com/in/mehedialhasan-21",
     "twitter": "https://x.com/mehedialhasan",
     "website": "https://github.com/mehedialhasan-21",
-    "email": "mailto:mehedi.devops@example.com"
+    "email": "mailto:programmer.mehedialhasansawon21@gmail.com"
   },
   "goals": {
-    "today": "Refactor GitHub CI/CD automation pipelines and review pending PRs.",
-    "weekly": "Ship a new open-source CLI tool and contribute to Kubernetes ecosystem."
+    "today": "Optimize Helm charts, refactor Terraform modules, and review open PRs.",
+    "weekly": "Publish an article on Kubernetes GitOps with ArgoCD and build a custom CLI tool."
   },
   "integrations": {
-    "wakatime": {
-      "enabled": true,
-      "api_key_env_var": "WAKATIME_API_KEY"
-    },
-    "leetcode": {
+    "codeforces": {
       "enabled": true,
       "username": "mehedialhasan-21"
     },
-    "codeforces": {
+    "leetcode": {
       "enabled": true,
       "username": "mehedialhasan-21"
     }
