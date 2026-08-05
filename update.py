@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -42,7 +43,7 @@ jobs:
           git config --local user.email "programmer.mehedialhasansawon21@gmail.com"
           git config --local user.name "mehedialhasan-21"
 
-          # Stage changes safely without throwing error 128 if cache doesn't exist
+          # Stage changes safely without throwing error
           git add README.md
           git add data_cache.json || true
 
@@ -51,5 +52,5 @@ jobs:
             echo "No changes detected in generated content. Skipping commit."
           else
             git commit -m "chore(auto-update): regenerate profile README [skip ci]"
-            git push
+            git push origin main
           fi
