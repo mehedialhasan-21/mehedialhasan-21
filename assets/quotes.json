@@ -1,0 +1,26 @@
+[
+  {
+    "quote": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds"
+  },
+  {
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson"
+  },
+  {
+    "quote": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson"
+  },
+  {
+    "quote": "Simplicity is prerequisite for reliability.",
+    "author": "Edsger W. Dijkstra"
+  },
+  {
+    "quote": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck"
+  },
+  {
+    "quote": "Automation applied to an inefficient operation will magnify the inefficiency.",
+    "author": "Bill Gates"
+  }
+]
