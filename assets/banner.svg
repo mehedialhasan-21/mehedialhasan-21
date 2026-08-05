@@ -1,0 +1,36 @@
+<svg fill="none" viewBox="0 0 800 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" rx="16" fill="url(#grad)" />
+  
+  <g transform="translate(40, 75)">
+    <text x="0" y="0" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="800" font-size="36" fill="url(#textGrad)" filter="url(#glow)">
+      Welcome to Mehedi's Profile
+    </text>
+    <text x="0" y="40" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="400" font-size="18" fill="#94a3b8">
+      Senior Python, Cloud &amp; DevOps Engineer | Automating the Future
+    </text>
+  </g>
+  
+  <g transform="translate(730, 40)" opacity="0.15">
+    <path d="M-40 0 L40 80 L-40 160" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
