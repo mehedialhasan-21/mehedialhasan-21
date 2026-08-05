@@ -1,0 +1,32 @@
+{
+  "username": "mehedialhasan-21",
+  "display_name": "Mehedi Al Hasan",
+  "title": "Senior Software Engineer & DevOps Enthusiast",
+  "bio": "Passionate about building scalable cloud-native architectures, automating workflows, and contributing to open-source.",
+  "location": "Bangladesh",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/mehedialhasan-21",
+    "twitter": "https://x.com/mehedialhasan",
+    "website": "https://github.com/mehedialhasan-21",
+    "email": "mailto:mehedi.devops@example.com"
+  },
+  "goals": {
+    "today": "Refactor GitHub CI/CD automation pipelines and review pending PRs.",
+    "weekly": "Ship a new open-source CLI tool and contribute to Kubernetes ecosystem."
+  },
+  "integrations": {
+    "wakatime": {
+      "enabled": true,
+      "api_key_env_var": "WAKATIME_API_KEY"
+    },
+    "leetcode": {
+      "enabled": true,
+      "username": "mehedialhasan-21"
+    },
+    "codeforces": {
+      "enabled": true,
+      "username": "mehedialhasan-21"
+    }
+  },
+  "cache_ttl_seconds": 3600
+}
