@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="assets/banner.svg" alt="Profile Banner" width="100%" />
 </div>
@@ -64,9 +65,9 @@
 
 | Metric | Count | Metric | Count |
 | :--- | :--- | :--- | :--- |
-| 👥 **Followers** | `0` | 👤 **Following** | `0` |
-| 📦 **Public Repositories** | `0` | ⭐ **Total Stars Earned** | `0` |
-| 🔀 **Total Forks** | `0` | 💻 **Total Commits (Est.)** | `0` |
+| 👥 **Followers** | `3` | 👤 **Following** | `2` |
+| 📦 **Public Repositories** | `16` | ⭐ **Total Stars Earned** | `1` |
+| 🔀 **Total Forks** | `0` | 💻 **Total Commits (Est.)** | `672` |
 
 ---
 
@@ -74,33 +75,49 @@
 
 | Repository | Description | Primary Language | Stars |
 | :--- | :--- | :--- | :--- |
-| [**Auto-Profile**](https://github.com/mehedialhasan-21/Auto-Profile) | Automated GitHub Profile README Generator powered by Python 3.12 and GitHub Actions. | `Python` | ⭐ 0 |
+| [**B12-ASSIGNMENT-001**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-001) | No description provided. | `HTML` | ⭐ 1 |
+| [**B12-ASSIGNMENT-002-Responsive-Flowers**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-002-Responsive-Flowers) | No description provided. | `HTML` | ⭐ 0 |
+| [**B12-ASSIGNMENT-005-Emergency-hotline**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-005-Emergency-hotline) | No description provided. | `HTML` | ⭐ 0 |
+| [**B12-ASSIGNMENT-006-Earth-Green**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-006-Earth-Green) | No description provided. | `HTML` | ⭐ 0 |
+
 
 ---
 
 ### ⚡ Recent Public Repositories
 
-- 📌 [**Auto-Profile**](https://github.com/mehedialhasan-21/Auto-Profile) - Automated GitHub Profile README Generator. (`Python`)
+- 📌 [**mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) - No description. (`Python`)
+- 📌 [**B12-ASSIGNMENT-010-home_nest_server**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-010-home_nest_server) - No description. (`JavaScript`)
+- 📌 [**B12-ASSIGNMENT-010-home_nest_client**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-010-home_nest_client) - No description. (`JavaScript`)
+- 📌 [**B12-ASSIGNMENT-009-warm_paw**](https://github.com/mehedialhasan-21/B12-ASSIGNMENT-009-warm_paw) - No description. (`JavaScript`)
+- 📌 [**students-ai-cyber-training**](https://github.com/mehedialhasan-21/students-ai-cyber-training) - No description. (`HTML`)
+
 
 ---
 
 ### 📜 Recent GitHub Activity
 
-- ✨ Created repository/branch at **mehedialhasan-21/Auto-Profile** at `2026-08-05`
+- 🔀 Pushed commits to on [**mehedialhasan-21/mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) at `2026-08-05`
+- 🔀 Pushed commits to on [**mehedialhasan-21/mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) at `2026-08-05`
+- 🔀 Pushed commits to on [**mehedialhasan-21/mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) at `2026-08-05`
+- 🔀 Pushed commits to on [**mehedialhasan-21/mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) at `2026-08-05`
+- 🔀 Pushed commits to on [**mehedialhasan-21/mehedialhasan-21**](https://github.com/mehedialhasan-21/mehedialhasan-21) at `2026-08-05`
+
+
+
 
 ---
 
 ### 💬 Random Developer Quote
 
-> *"Talk is cheap. Show me the code."*
+> *"Programs must be written for people to read, and only incidentally for machines to execute."*
 > 
-> — **Linus Torvalds**
+> — **Harold Abelson**
 
 ---
 
 <div align="center">
 
-  **Last Updated:** `2026-08-05 20:25:08 UTC` | **Current Date:** `August 05, 2026`
+  **Last Updated:** `2026-08-05 15:32:19 UTC` | **Current Date:** `August 05, 2026`
 
   *Automated with Python 3.12 & GitHub Actions* 🤖
 
