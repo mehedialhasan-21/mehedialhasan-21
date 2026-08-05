@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -32,23 +33,24 @@ jobs:
 
       - name: Regenerate README Content
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python update.py
 
       - name: Commit and Push Changes Safely
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "programmer.mehedialhasansawon21@gmail.com"
+          git config --local user.name "mehedialhasan-21"
 
-          # Stage changes
-          git add README.md data_cache.json
+          # Stage files safely
+          git add README.md
+          git add data_cache.json || true
 
-          # Commit only if changes actually exist
+          # Check git status
           if git diff --staged --quiet; then
             echo "No changes detected in generated content. Skipping commit."
           else
             git commit -m "chore(auto-update): regenerate profile README [skip ci]"
-            git push
+            git push origin HEAD:main || git push
           fi
