@@ -2,7 +2,7 @@ name: Auto Update GitHub Profile README
 
 on:
   schedule:
-    # Runs automatically every day at midnight UTC
+    # Runs daily at midnight UTC
     - cron: '0 0 * * *'
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Regenerate README Content
+      - name: Execute Advanced Profile Pipeline
         env:
           GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,13 +44,12 @@ jobs:
           git config --local user.name "mehedialhasan-21"
 
           # Stage files safely
-          git add README.md
-          git add data_cache.json || true
+          git add README.md assets/stats.svg data_cache.json || true
 
           # Check git status
           if git diff --staged --quiet; then
-            echo "No changes detected in generated content. Skipping commit."
+            echo "No changes detected. Skipping commit."
           else
-            git commit -m "chore(auto-update): regenerate profile README [skip ci]"
+            git commit -m "chore(profile): auto-update metrics and SVG assets [skip ci]"
             git push origin HEAD:main || git push
           fi
